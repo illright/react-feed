@@ -1,0 +1,28 @@
+.root {
+  padding: 8px;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 500px;
+}
+
+.post {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.comments {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.comment {
+  padding: 8px 4px;
+  background: #f5f5f5;
+}

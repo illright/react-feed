@@ -1,7 +1,7 @@
 {
   "name": "@illright/react-feed",
   "version": "1.0.0",
-  "description": "",
+  "description": "An unstyled React component that implements the WAI-ARIA feed pattern",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -9,8 +9,14 @@
     "build": "tsup ./src/index.tsx",
     "build:watch": "tsup ./src/index.tsx --watch"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "aria",
+    "react",
+    "feed",
+    "accessibility",
+    "keyboard"
+  ],
+  "author": "Lev Chelyadinov (https://github.com/illright)",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^18.2.7",

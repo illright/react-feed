@@ -35,7 +35,7 @@ It exports two components:
   Props:
   * `aria-labelledby?: string`, the ID of the element that labels the feed. This element should be outside the feed, like a sibling.
   * `aria-busy?: boolean`, whether the feed is being updated with more articles.
-* `Article`, each individual card
+* `Article`, each individual card  
   Props:
   * **Required**: `aria-labelledby: string`, the ID of the element that labels the article. This element should be inside the article.
   * `aria-describedby?: string`, the ID of the element that describes the article. It should be inside the article.
